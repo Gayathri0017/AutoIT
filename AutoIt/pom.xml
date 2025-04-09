@@ -42,6 +42,15 @@
     </configuration>
     </plugin>
     <plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>exec-maven-plugin</artifactId>
+  <version>3.5.0</version>
+  <configuration>
+    <mainClass>com.AutoIt.Demo1</mainClass>
+  </configuration>
+</plugin>
+
+    <plugin>
     <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
